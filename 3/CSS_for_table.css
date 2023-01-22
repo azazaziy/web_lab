@@ -1,0 +1,64 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #1b2b34;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: center;
+}
+input{
+    height: 20px;
+}
+.create_table{
+    width: 100%;
+    background: #6699cc;
+    padding-right: 40%;
+    border: none;
+}
+.add_row{
+    width: 100%;
+    background: #ec5f67;
+    padding-right: 40%;
+    border: none;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.delete_row{
+    width: 100%;
+    background: #62b3b2;
+    border: none;
+}
+.write_number{
+    background: #99c794;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+.table{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f99157;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, th {
+    border: solid 1px #a7adba ;
+    text-align: center;
+}
